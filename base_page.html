@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <!-- Styling for the page -->
+  <link rel="stylesheet" href="main.css">
+
+  <title>Thought Bubbles</title>
+</head>
+<body>
+  <header>
+    <div class="jumbotron">
+      <h1 class="display-4">Thought Bubbles</h1>
+      <p class="lead">Record your thoughts throughout the day!</p>
+    </div>
+  </header>
+
+  <!-- Main Page Content -->
+  <main>
+    <form class="thought__form" method="POST">
+      <div class="form-group">
+        <label for="thoughtInput" class="thought__label">What are your thoughts?</label>
+        <textarea class="form-control" id="thoughtInput" name="thoughtInput" rows="2"></textarea>
+      </div>
+      <button type="submit" class="thought__btn btn btn-primary">Submit</button>
+    </form>
+
+    <div class="container thoughts__list">
+      {}
+    </div>
+  </main>
+
+  <!-- JQuery, Popper and Bootstrap 4 Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>

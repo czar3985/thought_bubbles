@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 850px) {
+  header {
+    width: 850px;
+    margin: auto;
+  }
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+@media screen and (min-width: 850px) {
+  main {
+    width: 850px;
+  }
+}
+
+.thought__label {
+  font-size: 1.25em;
+}
+
+.thought__btn {
+  float: right;
+}
+
+.thoughts__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1em;
+  clear: both;
+}
+
+.thought__date {
+  width: 30%;
+}
+
+.thought__text {
+  width: 70%;
+}
