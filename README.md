@@ -6,7 +6,8 @@ The browser sends GET requests to the server that responds with the web page con
 a form for inputting thoughts and all previous inputs sorted from the most recent entry.
 
 Upon receiving the POST request for a new input, the server fixes the current date and
-time that corresponds to the entry before saving it to memory.
+time that corresponds to the entry before saving it to memory. The client is then
+redirected to the upgraded page.
 
 ![Thought Bubbles website](./screenshot.jpg?raw=true "Title")
 
