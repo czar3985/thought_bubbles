@@ -36,7 +36,3 @@ gives more information on how to run python scripts:
 The website is currently hardcoded to run in http://localhost:8000/
 
 No databases used. The data lasts only until the server is closed.
-
-## License
-
-Thought Bubbles is released under the [MIT License](https://opensource.org/licenses/MIT).
